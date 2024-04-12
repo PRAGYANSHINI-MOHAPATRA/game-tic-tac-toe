@@ -1,0 +1,100 @@
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Play:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: bolder;
+font-family: "Play", sans-serif;
+font-weight: 700;
+font-style: normal;
+color: aliceblue;
+  }
+  
+  body {
+    background-color: #0e2e2e ;
+    text-align: center;
+  }  
+  h1{
+    background-color: #01191d93;
+line-height:3rem;
+border: 20px solid  #01151800;
+text-shadow: 3px 0px 3px  rgba(245, 245, 245, 0.968);
+  }
+  
+  .container {
+    height: 70vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    transition: scale 1s linear; 
+  }
+.game :hover{
+    cursor:pointer;
+scale: 0.9;
+box-shadow: 0 0 5px 5px #1c5858;
+  }
+  .box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 4px 6px 3px #000000cf;
+    font-size: 8vmin;
+    /* color: #b0413e; */
+    color: rgb(175, 180, 186);
+    text-shadow:0px 0px 8px #2aa6b1;
+    background-color: #000506a5;
+  }
+  
+  #reset-btn {
+    padding: 3vmin 15vmin;
+    font-size: 1.25rem;
+    background-color: #191913cf;
+    color: #fff;
+    border-radius: 0.8rem;
+    border: none;
+    box-shadow: 4px 6px 3px #000000cf;
+    cursor: pointer;
+ } 
+
+  
+  #new-btn {
+    padding: 3vmin 15vmin;
+    font-size: 1.25rem;
+    background-color: #191913cf;
+    color: #fff;
+    border-radius: 0.8rem;
+    border: none;
+    transition: scale 1s linear; 
+    cursor: pointer;
+  }
+ 
+  #msg {
+    color: rgb(175, 180, 186);
+    text-shadow:0px 0px 8px #2aa6b1;
+    color: #ffffc7;
+    font-size: 5vmin;
+  }
+  
+  .msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .hide {
+    display: none;
+  } 
